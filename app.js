@@ -22,7 +22,7 @@ app.post('/api', (req, res) => {
   // adds body to array
   people.push(req.body)
   // return confirmation
-  res.json(req.body.name)
+  res.json(req.body)
 })
 
 // opens/ listen on port
